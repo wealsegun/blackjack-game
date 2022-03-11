@@ -3,6 +3,8 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const helmet = require("helmet");
 
+const port = `3333`;
+
 const app = express();
 
 // Use Helmet for vulnerability
@@ -17,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
 //User Channels
-require("./app/routes/channel-users.routes")(app);
+require("./routes/backjack.routes")(app);
 
 // simple route
 app.get(`/`, (req, res) => {
