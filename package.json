@@ -1,0 +1,25 @@
+{
+  "name": "blackjack-game",
+  "version": "1.0.0",
+  "description": "Two players: You and the Dealer. A deck is represented as a json list of Card objects. Your application should accept an URL on the command line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wealsegun/blackjack-game.git"
+  },
+  "author": "Ogunleye Olawale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wealsegun/blackjack-game/issues"
+  },
+  "homepage": "https://github.com/wealsegun/blackjack-game#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2"
+  }
+}
